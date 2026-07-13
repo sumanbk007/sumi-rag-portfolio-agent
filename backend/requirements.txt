@@ -6,3 +6,4 @@ numpy==1.26.4
 python-dotenv==1.0.1
 pydantic==2.7.4
 markdown==3.6
+packaging==24.2
