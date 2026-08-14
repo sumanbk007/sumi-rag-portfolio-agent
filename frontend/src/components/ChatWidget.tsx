@@ -12,7 +12,7 @@ const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
 const SUGGESTED_QUESTIONS = [
   "What's Suman's experience with React?",
-  "Tell me about the KrispCall projects",
+  "Tell me about Suman's projects",
   "What are Suman's key skills?",
 ];
 
