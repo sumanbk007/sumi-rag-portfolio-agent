@@ -128,18 +128,18 @@ export default function Hero() {
               >
                 See my work <ArrowRight size={15} />
               </a>
-              <a
+              {/* <a
                 href="/resume.pdf"
                 download
                 className="inline-flex items-center gap-2 px-5 py-2.5 border border-[#E5E1D8] bg-white text-text text-sm rounded-md hover:border-[#C5C0B8] transition-colors shadow-sm"
               >
                 <Download size={15} /> Download Resume
-              </a>
+              </a> */}
             </div>
 
             <div className="flex items-center gap-4">
               <a
-                href="https://github.com"
+                href="https://github.com/sumanbk007"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-md border border-[#E5E1D8] bg-white flex items-center justify-center text-muted hover:text-text hover:border-[#C5C0B8] transition-all shadow-sm"
@@ -148,7 +148,7 @@ export default function Hero() {
                 <Github size={16} />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/suman-bk-4a8a14274/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-md border border-[#E5E1D8] bg-white flex items-center justify-center text-muted hover:text-text hover:border-[#C5C0B8] transition-all shadow-sm"

@@ -35,7 +35,7 @@ export default function Footer() {
           {/* Socials */}
           <div className="flex items-center gap-3">
             <a
-              href="https://github.com"
+              href="https://github.com/sumanbk007"
               target="_blank"
               rel="noopener noreferrer"
               className="w-8 h-8 rounded-lg border border-[#E5E1D8] bg-white flex items-center justify-center text-muted hover:text-accent hover:border-accent/30 transition-all card-shadow"
@@ -44,7 +44,7 @@ export default function Footer() {
               <Github size={14} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/suman-bk-4a8a14274/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-8 h-8 rounded-lg border border-[#E5E1D8] bg-white flex items-center justify-center text-muted hover:text-accent hover:border-accent/30 transition-all card-shadow"

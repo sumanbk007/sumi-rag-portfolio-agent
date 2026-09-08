@@ -34,7 +34,7 @@ export default function About() {
             }`}
           >
             <p className="text-subtle leading-relaxed">
-              I&apos;m a mid-level Frontend Engineer based in{" "}
+              I&apos;m a Software Engineer based in{" "}
               <span className="text-text font-medium">Kathmandu, Nepal</span>,
               specialising in building production-grade web apps with{" "}
               <span className="text-accent font-medium">React.js</span>,{" "}

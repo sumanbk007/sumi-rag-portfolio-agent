@@ -29,7 +29,9 @@ export default function Contact() {
           }`}
         >
           <span className="font-mono text-accent text-sm font-medium">05.</span>
-          <h2 className="text-2xl md:text-3xl font-bold text-text">Get In Touch</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-text">
+            Get In Touch
+          </h2>
           <div className="flex-1 h-px bg-[#E5E1D8] max-w-xs" />
         </div>
 
@@ -52,10 +54,15 @@ export default function Contact() {
                 className="flex items-center gap-3 group w-full text-left"
               >
                 <div className="w-10 h-10 rounded-xl border border-[#E5E1D8] bg-white card-shadow flex items-center justify-center group-hover:border-accent/30 group-hover:bg-accent-light transition-all">
-                  <Mail size={15} className="text-muted group-hover:text-accent transition-colors" />
+                  <Mail
+                    size={15}
+                    className="text-muted group-hover:text-accent transition-colors"
+                  />
                 </div>
                 <div>
-                  <div className="text-xs font-mono text-muted mb-0.5">Email (click to copy)</div>
+                  <div className="text-xs font-mono text-muted mb-0.5">
+                    Email (click to copy)
+                  </div>
                   <div className="text-sm font-medium text-text group-hover:text-accent transition-colors">
                     {copied ? "Copied! ✓" : "bksuman1211@gmail.com"}
                   </div>
@@ -67,8 +74,12 @@ export default function Contact() {
                   <Phone size={15} className="text-muted" />
                 </div>
                 <div>
-                  <div className="text-xs font-mono text-muted mb-0.5">Phone</div>
-                  <div className="text-sm font-medium text-text">+977-9865762489</div>
+                  <div className="text-xs font-mono text-muted mb-0.5">
+                    Phone
+                  </div>
+                  <div className="text-sm font-medium text-text">
+                    +977-9865762489
+                  </div>
                 </div>
               </div>
 
@@ -77,15 +88,19 @@ export default function Contact() {
                   <MapPin size={15} className="text-muted" />
                 </div>
                 <div>
-                  <div className="text-xs font-mono text-muted mb-0.5">Location</div>
-                  <div className="text-sm font-medium text-text">Kathmandu, Nepal</div>
+                  <div className="text-xs font-mono text-muted mb-0.5">
+                    Location
+                  </div>
+                  <div className="text-sm font-medium text-text">
+                    Kathmandu, Nepal
+                  </div>
                 </div>
               </div>
             </div>
 
             <div className="flex gap-3">
               <a
-                href="https://github.com"
+                href="https://github.com/sumanbk007"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-4 py-2.5 border border-[#E5E1D8] bg-white rounded-xl text-subtle hover:text-accent hover:border-accent/30 hover:bg-accent-light text-sm font-mono transition-all card-shadow"

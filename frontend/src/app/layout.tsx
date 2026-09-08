@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Suman B.K. — Frontend Developer",
+  title: "Suman B.K. — Software Engineer",
   description:
-    "Mid-level Frontend Engineer specialising in React.js, Next.js and TypeScript, with 3+ years of hands-on experience shipping production features.",
+    "Software Engineer specialising in React.js, Next.js and TypeScript, with 3+ years of hands-on experience shipping production features.",
   keywords: ["Frontend Developer", "React", "Next.js", "TypeScript", "Nepal"],
   openGraph: {
-    title: "Suman B.K. — Frontend Developer",
-    description: "Mid-level Frontend Engineer specialising in React.js, Next.js and TypeScript.",
+    title: "Suman B.K. — Software Engineer",
+    description:
+      "Software Engineer specialising in React.js, Next.js,TypeScript and Node.js.",
     type: "website",
   },
 };
