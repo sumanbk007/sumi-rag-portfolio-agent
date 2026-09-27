@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --font-syne: 'Syne', sans-serif;
-  --font-jetbrains: 'JetBrains Mono', monospace;
+  --font-syne: "Syne", sans-serif;
+  --font-jetbrains: "JetBrains Mono", monospace;
 }
 
 * {
@@ -17,37 +17,37 @@
 
 html {
   scroll-behavior: smooth;
-}
-
-body {
-  background-color: #F8F7F4;
-  color: #1A1917;
-  font-family: var(--font-syne), sans-serif;
-  -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
 }
 
-/* Scrollbar */
+body {
+  background-color: #f8f7f4;
+  color: #1a1917;
+  font-family: var(--font-syne), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  width: 100%;
+}
+
 ::-webkit-scrollbar {
   width: 4px;
 }
 ::-webkit-scrollbar-track {
-  background: #F8F7F4;
+  background: #f8f7f4;
 }
 ::-webkit-scrollbar-thumb {
-  background: #C5C0B8;
+  background: #c5c0b8;
   border-radius: 2px;
 }
 
-/* Selection */
 ::selection {
   background: rgba(22, 163, 74, 0.15);
-  color: #16A34A;
+  color: #16a34a;
 }
 
 @layer utilities {
   .text-gradient {
-    background: linear-gradient(135deg, #16A34A 0%, #4F46E5 100%);
+    background: linear-gradient(135deg, #16a34a 0%, #4f46e5 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -55,15 +55,19 @@ body {
 
   .border-gradient {
     border: 1px solid transparent;
-    background: linear-gradient(#FFFFFF, #FFFFFF) padding-box,
-                linear-gradient(135deg, rgba(22,163,74,0.35), rgba(79,70,229,0.35)) border-box;
+    background:
+      linear-gradient(#ffffff, #ffffff) padding-box,
+      linear-gradient(135deg, rgba(22, 163, 74, 0.35), rgba(79, 70, 229, 0.35))
+        border-box;
   }
-
   .card-shadow {
-    box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04);
+    box-shadow:
+      0 1px 3px rgba(0, 0, 0, 0.06),
+      0 4px 16px rgba(0, 0, 0, 0.04);
   }
-
   .card-shadow-hover {
-    box-shadow: 0 4px 20px rgba(0,0,0,0.10), 0 1px 4px rgba(0,0,0,0.06);
+    box-shadow:
+      0 4px 20px rgba(0, 0, 0, 0.1),
+      0 1px 4px rgba(0, 0, 0, 0.06);
   }
 }

@@ -23,7 +23,7 @@ export default function TechTicker() {
   const items = [...techs, ...techs];
 
   return (
-    <div className="max-w-6xl mx-auto px-6 bg-[#F8F7F4] py-5 select-none relative">
+    <div className="w-full bg-[#F8F7F4] py-5 select-none relative overflow-hidden">
       {/* Left fade */}
       <div
         className="absolute left-0 top-0 bottom-0 w-24 z-10 pointer-events-none"
